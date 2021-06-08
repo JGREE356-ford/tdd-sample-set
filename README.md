@@ -5,10 +5,10 @@ TDD pairing interview procedure
 
 1. Provide this branch when conducting a mock pair programming session for the interview. 
 
-2. Navigate the candidate to the skeleton UnOrderedSet.kt class then explain that he/she is 
+2. Navigate the candidate to the skeleton UnOrderedSet.kt or Set.java class then explain that he/she is 
    to intemplement the methods in the skeleton class using the TDD methodology. 
 
-3. Navigate the candidate to the UnOrderedSetTest.kt class informing him/her that the tests 
+3. Navigate the candidate to the UnOrderedSetTest.kt or SetTest.java class informing him/her that the tests 
    for the implementation should be written first in such a way as to fail due to the 
    implementation not yet existing. 
 
