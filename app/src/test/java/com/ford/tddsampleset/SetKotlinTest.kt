@@ -1,5 +1,4 @@
-package com.ford.tddsampleset;
-
+package com.ford.tddsampleset
 
 /* TODO
 
@@ -15,7 +14,6 @@ package com.ford.tddsampleset;
 
  clear
 
- addAll
  */
 
 // Implement set using an Array of Strings of size 5
@@ -24,16 +22,16 @@ package com.ford.tddsampleset;
 // Test case naming convention
 // <action/functionName>_<Conditions>_<result>
 
-import org.junit.Test;
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
-import static junit.framework.TestCase.assertEquals;
-
-public class SetTest {
+class SetKotlinTest  {
 
     @Test
-    public void isEmpty_setIsEmpty_returnTrue() {
-        // Start here
+    fun add_itemGiven_addsItemToSet() {
 
-        assertEquals(true, true);
+        // Get started here
+
+        assertEquals(true, true)
     }
 }

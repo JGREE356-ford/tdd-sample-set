@@ -1,6 +1,6 @@
 package com.ford.tddsampleset;
 
-public class Set {
+public class SetJava {
 
     String[] items = {"", "", "", "", ""};
 
@@ -15,7 +15,5 @@ public class Set {
     public void remove() {}
 
     public void clear() {}
-
-    public void addAll() {}
 
 }

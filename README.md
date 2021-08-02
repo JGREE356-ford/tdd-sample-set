@@ -1,19 +1,39 @@
 # tdd-sample-set
 
 
-TDD pairing interview procedure 
+Problem Statement
 
-1. Provide this branch when conducting a mock pair programming session for the interview. 
+For this exercise, you will be required to write your own implementation for the Set data structure,
+this can be written in either Java (write implementation in the Set.java file) or Kotlin (use SetKotlin.kt).
 
-2. Navigate the candidate to the skeleton UnOrderedSet.kt or Set.java class then explain that he/she is 
-   to intemplement the methods in the skeleton class using the TDD methodology. 
+Your set implementation must meet the following requirements:
 
-3. Navigate the candidate to the UnOrderedSetTest.kt or SetTest.java class informing him/her that the tests 
-   for the implementation should be written first in such a way as to fail due to the 
-   implementation not yet existing. 
+1. Hold elements of type String
+2. Can hold a maximum of 5 elements
+3. The order of elements within the set DOES matter
+4. Cannot contain duplicate elements
+5. Must implement the following methods:
+    a. isEmpty(): Determines if the set contains any elements
+    b. add(): Add a single, specified element to the set
+    c. getSize(): Determines the size of the list
+    d. contains(): Determines if the specified element exists within the set
+    e. remove(): Removes a single, specified element from the set
+    f. clear(): Removes all elements from the set
+    
+In addition to the above, your implementation must have 100% test coverage.  Test code can be written
+in Java (use SetJavaTest file) or Kotlin (SetKotlinTest) utilizing the JUnit framework. 
 
-   Example…   Candidate begins by writing a test for the add method that fails. 
-              The candidate then writes the implementation and runs the test again. 
-              If it passes the candidate moves on to writing the next method continuing 
-              this pattern (red green refactor). If the test fails the candidate refactors 
-              until he/she can continue this development pattern. 
+All code should be written using TDD (Test Driven Development) and the Red Green Refactor pattern (write 
+failing test first, then write just enough code to make test pass, finally refactor).  
+ 
+Your implementation cannot rely on the Set class built into Java/Kotlin, you must use a standard array 
+to hold all values.
+
+When writing test method names, please follow this convention:
+
+<action/functionName>_<Conditions>_<result>
+
+Ex:
+isEmpty_setIsEmpty_returnTrue()
+
+Good luck!
