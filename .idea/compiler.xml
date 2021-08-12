@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="11">
+      <module name="demo2" target="16" />
+      <module name="TDD_Sample_Set.demo" target="16" />
+      <module name="TDD_Sample_Set.demo.main" target="16" />
+      <module name="TDD_Sample_Set.demo.test" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>

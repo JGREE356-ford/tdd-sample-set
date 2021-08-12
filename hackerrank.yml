@@ -1,0 +1,10 @@
+version: 1.0
+configuration:
+  has_webserver: false
+  ide_config:
+    default_open_files:
+      - README.md
+    project_menu:
+      run:
+      install: curl -s https://get.sdkman.io | bash && source "/home/user/.sdkman/bin/sdkman-init.sh" && sdk install kotlin && wget https://services.gradle.org/distributions/gradle-5.0-bin.zip && sudo mkdir /opt/gradle && sudo unzip -d /opt/gradle gradle-5.0-bin.zip && export PATH=$PATH:/opt/gradle/gradle-5.0/bin
+      test:
